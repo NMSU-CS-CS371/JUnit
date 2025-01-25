@@ -1,5 +1,5 @@
 Compiling and running from the command line
-(note that my example is using JUnit 1.9.0)
+(note that my example is using JUnit 1.11.4)
 (the "> " is representing your command prompt)
 ("#" lines are comments)
 --------------------------------------------
@@ -13,8 +13,8 @@ Circle 1 says: false
 Circle 2 says: true
 
 # the JUnit test must be compiled with JUnit in the classpath
-> javac -cp /home/jcook/tools/junit/junit-platform-console-standalone-1.9.0.jar Circle1Test.java
+> javac -cp ../tools/junit-platform-console-standalone-1.11.4.jar Circle1Test.java
 
 # The test can be run using the jarfile and appropriate arguments (classpath and test class)
-> java -jar /home/jcook/tools/junit/junit-platform-console-standalone-1.9.0.jar -cp . -c Circle1Test
+> java -jar ../tools/junit-platform-console-standalone-1.11.4.jar -cp . -c Circle1Test
 
