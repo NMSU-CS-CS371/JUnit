@@ -3,7 +3,7 @@
 
    <!-- CHANGE THIS FOR YOUR SYSTEM
         property to allow ant to find junit -->
-   <property name="junitjar" location="/home/jcook/tools/junit/junit-platform-console-standalone-1.9.0.jar"/>
+   <property name="junitjar" location="../tools/junit-platform-console-standalone-1.11.4.jar"/>
 
    <!-- standard compile task, but turn debugging on for source viewing -->
    <target name="compile" description="compile the source">
