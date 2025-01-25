@@ -10,7 +10,7 @@ JUnit is available at www.junit.org.
 This assignment is set up to use JUnit 5, so follow the instructions to 
 get the latest JUnit 5 standalone jar file named 
 
-   junit-platform-console-standalone-1.10.0.jar
+   junit-platform-console-standalone-1.11.4.jar
 
 Choose the "Platform" download button under the "Latest Release" block
 title on the right hand side of the JUnit home page. Then scroll down to 
@@ -35,7 +35,7 @@ and then set the path in the build.xml file. You can see in the build
 file an example path to my JUnit jarfile.
 
 The build file is set up so that the command "ant" will only compile the
-code. To do the other actions (run,junit,clean), you have to do 
+code. To do the other actions (run, junit, clean), you have to do 
 "ant <action>". If you have set up everything correctly, the command
 "ant junit" will show JUnit output and show that the two existing 
 tests were executed and passed (green checkmarks).
